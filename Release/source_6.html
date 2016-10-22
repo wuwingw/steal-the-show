@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>wuwingw - Steal The Show — 8 of 16</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="wuwingw" />
+  <meta name="description" content="A page for the game Steal The Show by wuwingw." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.png"><img src="Small Cover.png" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Steal The Show</span> <span class="pagination">— 8 of 16</span>
+	</h1>
+	<h2>
+		<span>wuwingw</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 1</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_5.html">Previous</a></li><li><a href="source_7.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Section Two - Now What</span></p><p class="indent0">The Physics Classroom is southeast of the First Floor Corridor. &quot;<span class="quote">This lab is mainly used for Physics. You can see various equpiment around the room, such as variable power supplies and cables.[</span><span class="substitution">if player is invisib</span><span class="quote">] I doubt you'll find anything to remedy your, uh, invisibility in here.[</span><span class="substitution">end if</span><span class="quote">] The corridor is back to the northwest.</span>&quot;</p><p class="indent0">The equipment is scenery in the Physics Classroom. Instead of doing anything to the equipment, say &quot;<span class="quote">It's stuff that's best left alone.</span>&quot; Understand &quot;<span class="quote">power supplies</span>&quot;or &quot;<span class="quote">supplies</span>&quot; or &quot;<span class="quote">power supply</span>&quot; or &quot;<span class="quote">supply</span>&quot; or &quot;<span class="quote">cable</span>&quot; or &quot;<span class="quote">cables</span>&quot; as the equipment.</p><p class="indent0">The Biology Classroom is northwest of the First Floor Corridor. &quot;<span class="quote">This is the main Biology lab, and ever since the teacher conducted an experiment on decomposition, it's smelt a bit off.[</span><span class="substitution">if player is invisib</span><span class="quote">] There's unlikely to be anything to help you here.[</span><span class="substitution">end if</span><span class="quote">] The corridor is to the southeast.</span>&quot;</p><p class="indent0">The Science Floor is a region. The First Floor Corridor, Biology Classroom, Chemistry Classroom, Physics Classroom, Storeroom and First Bathroom are in the Science Floor.</p><p class="indent0">Instead of smelling:</p><p class="indent1">if the player is in the Biology Classroom:</p><p class="indent2">say &quot;<span class="quote">Eesh.</span>&quot;;</p><p class="indent2">stop the action;</p><p class="indent1">if the player is in the Lunch Queue Corridor:</p><p class="indent2">say &quot;<span class="quote">You can already smell the fish and chips. You're too focused on wanting to win the competition to feel hungry though.</span>&quot;;</p><p class="indent2">stop the action;</p><p class="indent1">if the player is in the dining room:</p><p class="indent2">say &quot;<span class="quote">The fish and chips smells brilliant, but no, your mind is on thwarting Leila and winning this competition.</span>&quot;;</p><p class="indent2">stop the action;</p><p class="indent1">if the player is in the locker room:</p><p class="indent2">say &quot;<span class="quote">A mixture of deodarant and old socks.</span>&quot;;</p><p class="indent2">stop the action;</p><p class="indent1">otherwise:</p><p class="indent2">continue the action.</p><p class="indent2"></p><p class="indent0">Instead of going south from the First Floor Corridor:</p><p class="indent1">if the storeroom is dark:</p><p class="indent2">continue the action;</p><p class="indent1">otherwise if the player is invisib:</p><p class="indent2">say &quot;<span class="quote">Just after you walk back into the Chemistry classroom, none other than your teacher comes in after you, muttering irritatedly about a cancelled meeting. He seems to see straight through you, confirming your worst suspicions, and instead nods contentedly at the cleaned-up desk. Then, to your horror, he goes to the door of the storeroom and locks it shut before pocketing the key. With that, he leaves the classroom.[</span><span class="substitution">paragraph break</span><span class="quote">]If there was any remedy in the storeroom, you won't be getting to it until the teacher comes back to unlock the door. And who knows when that will be?</span>&quot;;</p><p class="indent2">now the storeroom is dark;</p><p class="indent2">continue the action;</p><p class="indent1">otherwise:</p><p class="indent2">continue the action.</p><p class="indent2"></p><p class="indent0">The timetable is scenery in the Chemistry Classroom. The description of the timetable is &quot;<span class="quote">It's the timetable of when there are lessons happening in this room.[</span><span class="substitution">if player is invisib</span><span class="quote">][</span><span class="substitution">paragraph break</span><span class="quote">]You scan down the column for Friday, and see that there'll be another lesson in here last period. In other words, the storeroom won't be unlocked until the teacher comes back for that lesson.[</span><span class="substitution">end if</span><span class="quote">]</span>&quot;.</p><p class="indent0">Understand &quot;<span class="quote">piece of paper</span>&quot; or &quot;<span class="quote">paper</span>&quot; as the timetable.</p><p class="indent0">Instead of taking the timetable, say &quot;<span class="quote">There's no point.</span>&quot;</p><p class="indent0">After examining the timetable:</p><p class="indent1">if the timetable is read:</p><p class="indent2">continue the action;</p><p class="indent1">otherwise if the player is invisib:</p><p class="indent2">now the timetable is read;</p><p class="indent2">say &quot;<span class="quote">Looks like you're stuck being invisible until then, but hey, that might not be so bad? Maybe you could seize this opportunity to up your chances for this afternoon. Leila [</span><span class="substitution">italic type</span><span class="quote">]was[</span><span class="substitution">roman type</span><span class="quote">] asking for trouble earlier... Now, where is she?</span>&quot;;</p><p class="indent1">otherwise:</p><p class="indent2">continue the action.</p><p class="indent2"></p>
+</div>
+
+<div class ="notes">
+
+</div>
+
+</div>
+
+</body>
+
+</html>
